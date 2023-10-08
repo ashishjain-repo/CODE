@@ -1,0 +1,45 @@
+body{
+background-color: pink;
+text-align: center;
+margin: auto;
+}
+main{
+    text-align: center;
+}
+.main-heading{
+    text-align: center;
+    color: white;
+}
+.main-heading:hover{
+    color: black;
+}
+.para-quote{
+text-align: center;
+color: white;
+width: 30%;
+margin-left: 35%;
+}
+.para-writer{
+text-align: center;
+color: white;
+}
+.list-items{
+text-align: left;
+list-style: none;
+margin-left: 35%;
+font-weight: bolder;
+}
+.president-image{
+    width: 10%;
+    
+}
+.quote{
+    color: white;
+    width: 15%;
+    margin-left: 43%;
+    /* border: 1px solid black; */
+}
+.last-para{
+    width: 45%;
+    margin-left: 28%;
+}

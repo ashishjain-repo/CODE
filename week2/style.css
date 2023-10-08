@@ -1,0 +1,26 @@
+* {
+    /* border: 1px solid; */
+}
+img{
+    max-width: 100%;
+    /* min-width: ; */
+}
+li{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    align-content: center;
+}
+.anchor-1{
+    color: white;
+}
+.banner-img{
+width: 49vw;
+}
+/* EM is for fonts and spacing */
+a:hover{
+    color: yellow;
+}
+a:link{
+    background-color: black;
+}

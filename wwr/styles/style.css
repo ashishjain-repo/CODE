@@ -1,0 +1,58 @@
+body{
+background-color: #fcfbfb;
+max-width: 1600px;
+    margin: 0 auto;
+}
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgba(20, 30, 13, .7);
+}
+nav.top-nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+nav.top-nav a:hover{
+    background-color: black;
+}
+.main-logo{
+    width: 80px;
+}
+h1, h3{
+    text-align: center;
+}
+main, section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+}
+.join-section{
+    color: #fcfbfb;
+    background-color: rgba(20, 30, 13, .7);
+}
+.join-button{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.join-button:hover{
+    background: #d9c2a3;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p:hover{
+    text-decoration: underline;
+}
+nav.bottom-nav ul{
+    text-align: left;
+    list-style: none;
+}
+footer img{
+    justify-items: left;
+}
