@@ -24,23 +24,30 @@ nav.top-nav a:hover{
 h1, h3{
     text-align: center;
 }
-main, section{
-    text-align: center;
-}
-#background{
-    height: 725px;
-}
-.join-section{
-    color: #fcfbfb;
-    background-color: rgba(20, 30, 13, .7);
-}
-.join-button{
+.book-button{
     color: black;
     text-decoration: none;
     font-weight: bold;
 
 }
-.join-button:hover{
+main, section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+    background: #d9c2a3;
+}
+.join-section{
+    color: #fcfbfb;
+    background-color: rgba(20, 30, 13, .7);
+}
+.join-button, .book-button{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.join-button:hover, .book-button:hover{
     background: #d9c2a3;
 }
 footer p{
@@ -49,9 +56,19 @@ footer p{
 footer p:hover{
     text-decoration: underline;
 }
-nav.bottom-nav ul{
+nav.bottom-nav{
+    background-color:rgba(20, 30, 13, .7) ;
+    color: #d9c2a3;
     text-align: left;
+}
+nav.bottom-nav ul{
     list-style: none;
+    display: inline;
+}
+nav.bottom-nav a, li{
+    color: #d9c2a3;
+    text-decoration: none;
+    font-weight: bold;
 }
 footer img{
     justify-items: left;
