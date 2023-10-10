@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
 background-color: #fcfbfb;
 max-width: 1600px;
