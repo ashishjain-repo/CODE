@@ -5,13 +5,17 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    width: 1600px;
+}
 header{
     margin: 0;
     padding: 0;
 }
 header img{
 width: 100%;
-height: 35em;
+height: 70vh;
+text-align: center;
 }
 main{
     background-color: grey;
@@ -24,8 +28,9 @@ li{
     margin: 9em;
 }
 ol img{
-    width: 12%;
-    margin: auto;
-    border: 1em solid darkslategrey;
+    width: 13%;
+    text-align: center;
+    /* margin: auto; */
+    border: .5em solid darkslategrey;
     border-radius: 50%;
 }
