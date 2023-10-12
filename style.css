@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #a1ffce, #faffd1);
+}
+.main-nav ul{
+    text-align: center;
+    
+}
+.main-nav li{
+    border: .5em groove grey;
+    display: inline-block;
+    margin: .2em 2em;
+    text-align: center;
+    width: 10em;
+    padding:.5em 0;
+}
+.main-nav a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+.main-nav li a:hover{
+    font-weight: bolder;
+    
+}
