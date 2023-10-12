@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body{
-background-color: #fcfbfb;
-max-width: 1600px;
+    background-color: #fcfbfb;
+    max-width: 1600px;
     margin: 0 auto;
 }
 .content{
@@ -12,6 +12,9 @@ max-width: 1600px;
 }
 header{
     background-color: rgba(20, 30, 13, .7);
+}
+nav{
+    text-align: center;
 }
 nav.top-nav a{
     text-align: center;
@@ -78,4 +81,7 @@ nav.bottom-nav li{
 }
 footer img{
     justify-items: left;
+}
+.social-link{
+    width: 80px;
 }
