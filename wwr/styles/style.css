@@ -1,43 +1,120 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lugrasimo&family=Shantell+Sans&display=swap');
+/* Imports */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Apply to all */
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
 }
+/* Apply to all */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Just Body */
+
 body{
     background-color: #fcfbfb;
     max-width: 1600px;
     margin: 0 auto;
 }
+
+/* Just Body */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Div */
+
 #content{
     max-width: 1600px; 
     margin: 0 auto;
 }
+
+/* Div */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Header Section */
+
 header{
     background-color: rgba(20, 30, 13, .7);
+    border-top:.3em groove grey;
+    border-left:.3em groove grey;
+    border-right:.3em groove grey;
 }
 nav{
     text-align: center;
+    padding-bottom: 1em;
+
 }
+
 nav.top-nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    margin-left: 2em;
 }
 nav.top-nav a:hover{
     background-color: black;
 }
+
+/* Header Section */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Main Section */
+
 .main-logo{
     width: 80px;
 }
 h1, h3{
     text-align: center;
 }
+.heading-link{
+    border-left:.3em groove grey;
+    border-right:.3em groove grey;
+    padding-top: .1em;
+    margin-top: -.5em;
+}
+.line{
+    border-bottom: .3em groove grey;
+    height: .1em;
+    margin-top: -6em;
+    margin-bottom: 10em;
+}
+.main-heading{
+    font-family: 'Borel', cursive, 'Lugrasimo', cursive, 'Shantell Sans', cursive;
+    color: #d9c2a3;
+}
+.heading-prompt{
+    font-family: 'Lugrasimo', cursive, 'Shantell Sans', cursive, 'Borel', cursive;   
+}
 .book-button{
     color: black;
     text-decoration: none;
     font-weight: bold;
+    border: 1px solid #d9c2a3;   
+    padding: .5em;
+    display: block;
+    width: 6em;
+    margin: auto;
+    margin-bottom: 10em;
+    border-radius: 10%;
+}
+.main-image{
+    width: 100%;
+    box-sizing: border-box;
+    border-left:.3em groove grey;
+    border-right:.3em groove grey;
 
 }
 main, section{
     text-align: center;
+}
+section h2{
+    font-family: 'Lugrasimo', cursive, 'Shantell Sans', cursive, 'Borel', cursive;   
 }
 #background{
     height: 725px;
@@ -45,16 +122,49 @@ main, section{
 }
 .join-section{
     color: #fcfbfb;
-    background-color: rgba(20, 30, 13, .7);
+    background-color: rgba(20, 30, 13, .7) ;;
+    height: 25vh;
+    margin-top: 8em;
+    margin-bottom: 10em;
 }
 .join-button, .book-button{
     color: black;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold;  
 
 }
 .join-button:hover, .book-button:hover{
     background: #d9c2a3;
+    background-color: #d9c2a3;
+}
+.card-img{
+    border: .5em solid #d9c2a3;
+    border-radius: 2%;
+}
+.ending-heading{
+    padding-top: .5em;
+}
+.ending-para{
+    font-family:'Borel', cursive, 'Lugrasimo', cursive, 'Shantell Sans', cursive;
+}
+.join-button{color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #d9c2a3;   
+    padding: .5em;
+    display: block;
+    width: 6em;
+    margin: auto;
+    border-radius: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Main Section */
+/* ------------------------------------------------------------------------------- */
+/* Footer Section */
+
+
+footer{
+    font-family: cursive, 'Times New Roman', Times, serif;
 }
 footer p{
     font-size: 1.2em;
@@ -62,8 +172,14 @@ footer p{
 footer p:hover{
     text-decoration: underline;
 }
+.nav-container{
+    display: block;
+    background-color: rgba(20, 30, 13, .7) ;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
 nav.bottom-nav{
-    background-color:rgba(20, 30, 13, .7) ;
+    /* background-color:rgba(20, 30, 13, .7) ; */
     color: #d9c2a3;
     text-align: left;
 }
@@ -82,6 +198,11 @@ nav.bottom-nav li{
 footer img{
     justify-items: left;
 }
+nav a img{
+    width: 80px;
+}
 .social-link{
     width: 80px;
 }
+
+/* Footer Section */
