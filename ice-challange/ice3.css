@@ -1,0 +1,45 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+main{
+display: grid;
+grid-template-columns: 1fr 1fr;
+max-width: 800px;
+justify-content: center;
+margin: auto;
+}
+.first-half{
+    grid-column: 1/1;
+    width: 50vw;
+    height: 100vh;
+}
+.second-half{
+    grid-column:2/3;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgba(189,195,199,.8);
+}
+h1{
+    width: 100%;
+    font-size: 12vw;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1.2em;
+    left: .6em;
+    letter-spacing: 10px;
+}
+h2{
+    color: red;
+    position: absolute;
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+    top:7em;
+    left:12.5em;
+    letter-spacing: 10px;
+
+}
+img{
+    max-width: 100%;
+}
