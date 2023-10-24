@@ -2,28 +2,30 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #03045E;
+  --secondary-color: #0077B6;
+  --accent1-color: #00B4D8;
+  --accent2-color: #90E0EF;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font:'Pacifico', cursive, "IM Fell French Canon SC";
+  --paragraph-font:'Josefin Sans' ,Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #03045E;  /* headlines on a white background */ 
+  --headline-color-on-color: #90E0EF; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #03045E; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #90E0EF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #03045E  ;
+  --nav-link-color: #03045E;
+  --nav-background-color: #0077B6;
+  --nav-hover-link-color: #90E0EF;
+  --nav-hover-background-color: #03045E;
 }
 
 
