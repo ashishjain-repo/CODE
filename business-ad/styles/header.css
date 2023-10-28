@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.header-navbar{
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    border: 1px solid black;
+}
+.header-nav-links{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid red;
+}
+.header-nav-link-1{grid-column: 1/2;}
+.header-nav-link-2{grid-column: 3/4;}
+.header-nav-link-3{grid-column: 4/5;}
+.header-nav-link-4{grid-column: 5/6;}
+
+#logo{
+    border-radius: 50%;
+    max-width: 5vw;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
