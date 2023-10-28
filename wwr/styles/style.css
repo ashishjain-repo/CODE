@@ -222,9 +222,7 @@ section h2{
     border-radius: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.join-section{
-    
-}
+
 /* Main Section */
 /* ------------------------------------------------------------------------------- */
 /* Footer Section */
@@ -292,3 +290,56 @@ nav a img{
 }
 
 /* Footer Section */
+@media screen and (max-width: 900px) {
+    .hero, main {
+        display: block;
+        height: auto;
+    }
+    .main-logo{
+        margin-top: 34%;
+        margin-left: 15%;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .hero {
+        margin-top: 0;
+        margin-bottom: -35%;
+    }
+    .heading-link {
+        margin-top: 0;
+    }
+    .heading-link h1{color: #6f7364;}
+    .book-button{
+        color: #000;
+    }
+    .heading-link h3 {
+        display: none;
+    }
+    .heading-link {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .river-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .join-section {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .join-section {
+        width: 95%;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
