@@ -1,0 +1,45 @@
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.first-block{
+grid-row-start: 1;
+grid-row-end: 2;
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 40% 20% 40%;;
+}
+.div-1-img{
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    z-index: 1;
+}
+.main-slogan{
+    z-index: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.main-button{
+    z-index: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.second-block{
+    /* height: 50vh; */
+    /* background-color: blue; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    border: 5px red solid;
+    display: grid;
+    grid-template-columns: 100%;
+}
