@@ -5,6 +5,11 @@
 /* This is for the buttons and links */
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 
+:root{
+    --green:rgb(30 ,215 ,96);
+    --black:rgb(25,20,20);
+}
+
 main{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -64,16 +69,16 @@ align-items: center;
     margin-right: 2em;
     text-decoration: none;
     font-family: norican;
-    background-color: rgb(30 ,215 ,96);
+    background-color: var(--green);
     color: white;
     word-spacing: .8em;
     letter-spacing: .4em;
     font-weight: 700;
 }
 .main-button:hover{
-    color: rgb(30 ,215 ,96);
-    background-color: rgba(25,20,20);
-    border-color: rgb(30 ,215 ,96);
+    color: var(--green);
+    background-color: var(--black);
+    border-color: var(--green);
     border-radius: 10%;
 }
 .second-block{
@@ -82,7 +87,16 @@ align-items: center;
     grid-row-start: 2;
     grid-row-end: 3;
     width: auto;
-    border: 5px red solid;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    background-color:white;
+}
+.second-block-image img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 480px;
+    height: 360px;
+    object-fit: cover;
 }

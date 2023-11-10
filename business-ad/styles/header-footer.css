@@ -3,7 +3,10 @@
 /* Color for the links in all the pages: rgb(30 ,215 ,96) */
 /* Navbars background color background: rgba(25,20,20) */
 
-
+:root{
+    --green:rgb(30 ,215 ,96);
+    --black:rgb(25,20,20);
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +20,7 @@
 
 /* header - Open Here */
 header{
-    background: rgba(25,20,20);
+    background:var(--black);
     border: 2px solid black;
     position: sticky;
     top: 0;
@@ -35,7 +38,7 @@ header{
 }
 .header-nav-links{
     text-decoration: none;
-    color: rgb(30 ,215 ,96);
+    color: var(--green);
     font-family: 'Holtwood One SC';
     font-size: 125%;
 }
@@ -52,7 +55,7 @@ footer{
     grid-template-rows: 100%;
     z-index: 5;
     /* justify-content: center; */
-    background-color: rgba(25,20,20)
+    background-color: var(--black);
 }
 .footer-nav{
     display: grid;
@@ -85,13 +88,13 @@ footer{
     padding-bottom: .2em;
 }
 .terms-right-links:hover{
-    color:rgb(30 ,215 ,96) ;
+    color:var(--green);
 }
 .footer-search{
     width: 80%;
     margin-right: .2em;
     border-radius:1em ;
-    background-color: rgb(30 ,215 ,96);
+    background-color:var(--green);
     color: white;
     font-weight: 800;
     font-family: 'Times New Roman', Times, serif;
