@@ -1,3 +1,5 @@
+/* This is the font for the brand name */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* This is the fint for the slogan */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 /* This is for the buttons and links */
@@ -25,6 +27,18 @@ align-items: center;
     grid-column-end: 4;
     z-index: 1;
 }
+.main-heading{
+    z-index: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: Pacifico;
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+    text-shadow: .070em .070em gray;
+}
 .main-slogan{
     z-index: 2;
     grid-row-start: 2;
@@ -33,7 +47,7 @@ align-items: center;
     grid-column-end: 4;
     font-family: Agbalumo;
     color: white;
-    font-size: 8vw;
+    font-size: 4vw;
     text-align: center;
 }
 .main-button{
@@ -55,7 +69,12 @@ align-items: center;
     word-spacing: .8em;
     letter-spacing: .4em;
     font-weight: 700;
-
+}
+.main-button:hover{
+    color: rgb(30 ,215 ,96);
+    background-color: rgba(25,20,20);
+    border-color: rgb(30 ,215 ,96);
+    border-radius: 10%;
 }
 .second-block{
     /* height: 50vh; */

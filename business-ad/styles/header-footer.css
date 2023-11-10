@@ -1,5 +1,5 @@
 /* This is the font for the links in the whole page */
-@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 /* Color for the links in all the pages: rgb(30 ,215 ,96) */
 /* Navbars background color background: rgba(25,20,20) */
 
@@ -36,8 +36,8 @@ header{
 .header-nav-links{
     text-decoration: none;
     color: rgb(30 ,215 ,96);
-    font-family: Monofett;
-    font-size: 150%;
+    font-family: 'Holtwood One SC';
+    font-size: 125%;
 }
 /* Header - Closing Here */
 
@@ -70,6 +70,33 @@ footer{
     object-fit: fill;
 }
 
+.terms-right-links{
+    font-size: .6em;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.terms-right-line{
+    font-size: .9em;
+    font-family: 'Times New Roman', Times, seriff;
+    color: white;
+    padding-bottom: .2em;
+}
+.terms-right-links:hover{
+    color:rgb(30 ,215 ,96) ;
+}
+.footer-search{
+    width: 80%;
+    margin-right: .2em;
+    border-radius:1em ;
+    background-color: rgb(30 ,215 ,96);
+    color: white;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    border: .2em black solid;
+}
 /* 
 Navbar bottom color : #D8E9A8
 Navbar top color : #1E5128
