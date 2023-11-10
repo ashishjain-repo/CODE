@@ -1,3 +1,8 @@
+/* This is the fint for the slogan */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+/* This is for the buttons and links */
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
 main{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -6,32 +11,51 @@ main{
 grid-row-start: 1;
 grid-row-end: 2;
 display: grid;
-grid-template-columns: 100%;
-grid-template-rows: 40% 20% 40%;;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 40% 20% 40%;
+align-items: center;
 }
 .div-1-img{
     width: 100%;
-    height: 720px;
+    height: 640px;
     object-fit: cover;
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 4;
     z-index: 1;
 }
 .main-slogan{
     z-index: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 4;
+    font-family: Agbalumo;
+    color: white;
+    font-size: 8vw;
+    text-align: center;
 }
 .main-button{
     z-index: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    border: .1em white solid;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-decoration: none;
+    font-family: norican;
+    background-color: rgb(30 ,215 ,96);
+    color: white;
+    word-spacing: .8em;
+    letter-spacing: .4em;
+    font-weight: 700;
+
 }
 .second-block{
     /* height: 50vh; */

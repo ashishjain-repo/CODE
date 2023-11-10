@@ -1,3 +1,9 @@
+/* This is the font for the links in the whole page */
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+/* Color for the links in all the pages: rgb(30 ,215 ,96) */
+/* Navbars background color background: rgba(25,20,20) */
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,26 +12,32 @@
 .container{
     display: grid;
     grid-template-rows: auto auto auto;
+    background: #000;
 }
 
 /* header - Open Here */
 header{
-    background: #000;
+    background: rgba(25,20,20);
     border: 2px solid black;
     position: sticky;
     top: 0;
     z-index: 5;
+    
 }
 .header-nav{
     height: 5vh;
     display: grid;
-    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
     text-align: center;
     align-items: center;
     justify-items: center;
+    
 }
 .header-nav-links{
     text-decoration: none;
+    color: rgb(30 ,215 ,96);
+    font-family: Monofett;
+    font-size: 150%;
 }
 /* Header - Closing Here */
 
@@ -38,7 +50,9 @@ footer{
     border: 1px solid;
     display: grid;
     grid-template-rows: 100%;
+    z-index: 5;
     /* justify-content: center; */
+    background-color: rgba(25,20,20)
 }
 .footer-nav{
     display: grid;
@@ -49,6 +63,15 @@ footer{
     align-items: center;
     justify-items: center;
 }
-footer img{
-    width: 10vh;
+.img-logo{
+    width: 11vh;
+    border: .1em solid white;
+    border-radius: 100%;
+    object-fit: fill;
 }
+
+/* 
+Navbar bottom color : #D8E9A8
+Navbar top color : #1E5128
+Buttons: #4E9F3D 
+*/
