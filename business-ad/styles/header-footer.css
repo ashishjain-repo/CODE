@@ -6,6 +6,8 @@
 :root{
     --green:rgb(30 ,215 ,96);
     --black:rgb(25,20,20);
+    --bgcolor:#4d4855;
+    --bg_gradient:linear-gradient(147deg, #4d4855 0%, #000000 74%);
 }
 *{
     box-sizing: border-box;
@@ -15,17 +17,18 @@
 .container{
     display: grid;
     grid-template-rows: auto auto auto;
-    background: #000;
+    background: var(--bgcolor);
+    background-image: var(--bg_gradient);
 }
 
 /* header - Open Here */
 header{
     background:var(--black);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: sticky;
     top: 0;
     z-index: 5;
-    
+    /* height: 120%; */
 }
 .header-nav{
     height: 5vh;
@@ -41,6 +44,9 @@ header{
     color: var(--green);
     font-family: 'Holtwood One SC';
     font-size: 125%;
+}
+.header-nav-links:hover{
+    color: white;
 }
 /* Header - Closing Here */
 
@@ -99,6 +105,7 @@ footer{
     font-weight: 800;
     font-family: 'Times New Roman', Times, serif;
     border: .2em black solid;
+    padding-left: 2em;
 }
 /* 
 Navbar bottom color : #D8E9A8
