@@ -4,28 +4,30 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #03045E;
-  --secondary-color: #252324;
-  --accent1-color: #FFFFFF;
-  --accent2-color: #90E0EF;
+  --primary-color: rgb(30 ,215 ,96);
+  --secondary-color: rgb(25,20,20);
+  --accent1-color: white;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font:'Pacifico', cursive, "IM Fell French Canon SC";
-  --paragraph-font:'Josefin Sans' ,Lato, Helvetica, sans-serif;
+  --paragraph-font:'Dancing Script','Josefin Sans' ,Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #03045E;  /* headlines on a white background */ 
+  --headline-color-on-white: var(--secondary-color);  /* headlines on a white background */ 
   --headline-color-on-color: #90E0EF; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #03045E; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: var(--secondary-color); /* paragraph text on a white background */ 
   --paragraph-color-on-color: #90E0EF; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #03045E  ;
-  --nav-link-color: #03045E;
+  --paragraph-background-color: var(--secondary-color)  ;
+  --nav-link-color: var(--secondary-color);
   --nav-background-color: #0077B6;
   --nav-hover-link-color: #90E0EF;
-  --nav-hover-background-color: #03045E;
+  --nav-hover-background-color: var(--secondary-color);
 }
 
 
