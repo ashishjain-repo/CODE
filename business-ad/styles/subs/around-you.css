@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 /* This font is for the information given as about the company */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* This font is for the paragraph as per recommended by instructor */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 :root{
     --green:rgb(30 ,215 ,96);
     --black:rgb(25,20,20);
@@ -80,6 +82,7 @@ main{
 }
 .article-info{
     margin-left: -1em;
+    font-family: 'Handlee';
 }
 .article-info h3{
     color: white;
@@ -93,9 +96,11 @@ main{
 }
 .article-info ul li span{
     color: white;
+    font-family: 'Agbalumo';
 }
 .article-info ul li{
     color: var(--green);
+    line-height: 1.3em;
 }
 .article-info a{
     text-align: right;

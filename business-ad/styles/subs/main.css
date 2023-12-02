@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 /* This font is for the information given as about the company */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* This font is for the paragraph as per recommended by instructor */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 :root{
     --green:rgb(30 ,215 ,96);
     --black:rgb(25,20,20);
@@ -129,7 +131,7 @@ width: 100vw;
 
 }
 .about-us{
-    font-family: 'Dancing Script';
+    font-family: 'Handlee';
     grid-column-start:1 ;
     grid-column-end: 4;
     grid-row-start:2;
@@ -150,7 +152,7 @@ width: 100vw;
     padding-top: 3em;
 }
 .bullet-points{
-    font-family: 'Dancing Script';
+    font-family: 'Handlee';
     list-style: none;
     font-size: 1.4em;
     color: var(--green);
@@ -158,4 +160,5 @@ width: 100vw;
 .bullet-points span{
     font-weight: 800;
 color: white;
+font-family: 'Agbalumo';
 }
