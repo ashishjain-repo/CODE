@@ -1,0 +1,103 @@
+/* This is the font for the brand name */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* This is the fint for the slogan */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+/* This is for the buttons and links */
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+/* This font is for the information given as about the company */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root{
+    --green:rgb(30 ,215 ,96);
+    --black:rgb(25,20,20);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 480px 480px 480px 20px;
+}
+
+.business-headline{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    font-family: 'Pacifico';
+    color: white;
+    font-size: 3em;
+    text-shadow: .070em .070em gray;
+}
+
+/* Images Division and classes */
+.image-1{
+    justify-self: center;
+    align-self: center;
+}
+.image-2{
+    justify-self: center;
+    align-self: center;
+}
+.image-3{
+    justify-self: center;
+    align-self: center;
+}
+.business-image{
+    width: 640px;
+    height: 380px;
+}
+/* Images Division and classes */
+
+/* Division and classes for Information about the business */
+.article-1{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 100px 100px 200px 60px 20px;
+}
+.article-1 h3,p,ul,p,a{
+    justify-self: center;
+    align-self: center;
+}
+.article-2{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 100px 100px 200px 60px 20px;
+}
+.article-2 h3,p,ul,p,a{
+    justify-self: center;
+    align-self: center;
+}
+.article-3{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 100px 100px 200px 60px 20px;
+}
+.article-3 h3,p,ul,p,a{
+    justify-self: center;
+    align-self: center;
+}
+.article-info{
+    margin-left: -1em;
+}
+.article-info h3{
+    color: white;
+    font-family: 'Agbalumo';
+    text-align: center;
+    font-size: 2em;
+}
+.article-info p{
+    color: var(--green);
+    font-size: larger;
+}
+.article-info ul li span{
+    color: white;
+}
+.article-info ul li{
+    color: var(--green);
+}
+.article-info a{
+    text-align: right;
+}
+/* Division and classes for Information about the business */
