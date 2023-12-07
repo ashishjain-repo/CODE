@@ -1,0 +1,96 @@
+/* This is the font for the brand name */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* This is the fint for the slogan */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+/* This is for the buttons and links */
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+/* This font is for the information given as about the company */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* This font is for the paragraph as per recommended by instructor */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+:root{
+    --green:rgb(30 ,215 ,96);
+    --black:rgb(25,20,20);
+}
+
+
+main{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 320px 1fr 320px;
+    justify-items: center;
+    align-items: center;
+
+}
+.main-heading{
+    grid-row: 1/2;
+}
+.main-heading h1{
+    font-family: 'Pacifico';
+    font-size: 5em;
+    color: white;
+    text-shadow: .070em .070em gray;
+
+}
+.about-plans{
+    grid-row: 3/4;
+}
+
+.the-plans{
+    grid-row: 2/3;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.plan-main{
+    background: var(--green);
+    width: 80%;
+    display: grid;
+    grid-template-rows: 150px 1fr 1fr 1fr 1fr 1fr 150px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 25px;
+    outline: 3px solid var(--green);
+}
+.price{
+    font-size: 2em;
+    color: white;
+}
+.dollar,.month{
+font-size: .5em;
+font-weight: bolder;
+color: black;
+}
+.plan-main a{
+    border: 3px solid white;
+    padding: .5em 2.5em;
+    text-decoration: none;
+    color: var(--green);
+    background: var(--black);
+}
+.plan-main a:hover{
+    color: white;
+    background:linear-gradient(120deg, #1db954, #191414);
+    border-color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
