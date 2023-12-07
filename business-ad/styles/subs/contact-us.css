@@ -69,6 +69,7 @@ textarea{
     padding-top: .5em;
     font-family: 'Handlee','Courier New', Courier, monospace;
     width: 30vw;
+    height: fit-content;
 }
 .submit-button{
     margin-bottom: 2em;
