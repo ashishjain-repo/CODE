@@ -115,3 +115,7 @@ textarea{
     font-family: 'Handlee','Courier New', Courier, monospace;
     font-size: 1.2em;
 }
+.sub-content a{
+    text-decoration: none;
+    color: var(--green);
+}
