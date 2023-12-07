@@ -119,3 +119,7 @@ textarea{
     text-decoration: none;
     color: var(--green);
 }
+.sub-content a:visited{
+    text-decoration: none;
+    color: var(--green);
+}
