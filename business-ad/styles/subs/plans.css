@@ -18,7 +18,7 @@ main{
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 320px 1fr 320px;
+    grid-template-rows: 280px 320px 420px;
     justify-items: center;
     align-items: center;
 
@@ -34,30 +34,46 @@ main{
 
 }
 .about-plans{
-    grid-row: 3/4;
+    /* grid-row: 3/4; */
+    color: white;
+    font-size: larger;
+}
+.about-plans p{
+    text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    line-height: 2.5em;
+    font-size: larger;
+    font-family: 'Handlee';
+    font-weight: bolder;
 }
 
 .the-plans{
-    grid-row: 2/3;
+    /* grid-row: 2/3; */
     display: grid;
     height: 100%;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .plan-main{
     background: var(--green);
     width: 80%;
     display: grid;
-    grid-template-rows: 150px 1fr 1fr 1fr 1fr 1fr 150px;
+    grid-template-rows: 150px 1fr 1fr 1fr 1fr;
     justify-content: center;
     justify-items: center;
     align-items: center;
     border: 5px solid white;
     border-radius: 25px;
     outline: 3px solid var(--green);
+}
+.plan-main h2{
+    font-family: 'Dancing Script';
 }
 .price{
     font-size: 2em;
@@ -67,6 +83,7 @@ main{
 font-size: .5em;
 font-weight: bolder;
 color: black;
+font-family: 'Handlee';
 }
 .plan-main a{
     border: 3px solid white;
@@ -74,6 +91,8 @@ color: black;
     text-decoration: none;
     color: var(--green);
     background: var(--black);
+    margin-top: .3em;
+    font-family: 'Handlee';
 }
 .plan-main a:hover{
     color: white;
